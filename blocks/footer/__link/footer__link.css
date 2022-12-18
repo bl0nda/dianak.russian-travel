@@ -1,0 +1,14 @@
+.footer__link {
+  display: block;
+  float: left;
+  margin: 0 18px 0 0;
+  transition: opacity 4s ease;
+}
+
+.footer__link:hover {
+  opacity: 0.8;
+}
+
+.footer__link:last-of-type {
+  margin: 0;
+}

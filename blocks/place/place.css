@@ -1,0 +1,16 @@
+.place {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 80px;
+  grid-template-areas:
+    "place__title place__website"
+    "place__image place__description";
+}
+
+.place:first-child {
+  margin-top: 92px;
+}
+
+.place:last-child {
+  margin-bottom: 92px;
+}

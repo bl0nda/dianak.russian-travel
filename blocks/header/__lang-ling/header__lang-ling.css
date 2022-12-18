@@ -1,0 +1,15 @@
+.header__lang-ling {
+  list-style: none;
+  line-height: 1.17;
+  font-size: 24px;
+  text-decoration: none;
+  color: white;
+}
+
+.header__lang-ling:hover {
+  border-bottom: 1px solid white;
+}
+
+.header__lang-ling:active {
+  border-bottom: 1px solid white;
+}

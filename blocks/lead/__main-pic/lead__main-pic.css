@@ -1,0 +1,7 @@
+.lead__main-pic {
+  display: flex;
+  flex-direction: column;
+  max-width: 984px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
