@@ -5,3 +5,15 @@
   margin: 0 auto;
   box-sizing: border-box;
 }
+
+@media screen and (max-width: 1024px) {
+  .lead__main-pic {
+    max-width: 928px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .lead__main-pic {
+    max-width: 100%;
+  }
+}

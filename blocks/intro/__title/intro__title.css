@@ -6,3 +6,18 @@
   padding-top: 92px;
   padding-bottom: 40px;
 }
+
+@media screen and (max-width: 768px) {
+  .intro__title {
+    padding-top: 88px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .intro__title {
+    padding-top: 64px;
+    font-size: 32px;
+    line-height: 1.09;
+    max-width: 250px;
+  }
+}

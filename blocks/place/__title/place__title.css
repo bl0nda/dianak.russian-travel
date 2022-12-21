@@ -2,5 +2,29 @@
   font-size: 72px;
   font-weight: 900;
   line-height: 1.06;
-  margin: 0 40px 48px 0;
+  margin: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .place__title {
+    font-size: 42px;
+    line-height: 1.1;
+    max-width: 330px;
+    padding-top: 20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .place__title:first-of-type {
+  padding-top: 0;
+  }
+  
+}
+
+@media screen and (max-width: 320px) {
+  .place__title {
+    margin: 0 0 32px 16px;
+    font-size: 32px;
+    line-height: 1.09;
+  }
 }
