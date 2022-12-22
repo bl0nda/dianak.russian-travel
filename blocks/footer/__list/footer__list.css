@@ -4,7 +4,15 @@
   padding: 0;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 500px) {
+  .footer__list {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+}
+
+@media screen and (max-width: 400px) {
   .footer__list {
     display: flex;
     flex-direction: column;

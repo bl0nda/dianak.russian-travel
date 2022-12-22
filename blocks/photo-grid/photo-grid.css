@@ -26,11 +26,10 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 400px) {
   .photo-grid {
     max-width: calc(100% - 32px);
-    display: flex;
-    flex-direction: column;
+    grid-template-columns: repeat(auto-fit, minmax(288px, 1fr));
     gap: 12px;
   }
 }

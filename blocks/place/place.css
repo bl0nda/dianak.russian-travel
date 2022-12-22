@@ -41,20 +41,26 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 670px) {
+  .place {
+    grid-template-columns: 280px 1fr;
+  }
+}
+
+@media screen and (max-width: 560px) {
   .place {
     display: block;
     margin: 50px auto 0;
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 560px) {
   .place:first-child {
     margin-top: 64px;
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 560px) {
   .place:last-child {
     margin-bottom: 66px;
   }
