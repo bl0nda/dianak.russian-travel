@@ -1,6 +1,4 @@
 .footer__link {
-  display: block;
-  float: left;
   margin: 0 18px 0 0;
   transition: opacity 4s ease;
 }
@@ -15,7 +13,6 @@
 
 @media screen and (max-width: 500px) {
   .footer__link {
-    float: none;
     margin: 0;
   }
 }
