@@ -14,14 +14,14 @@
   margin-bottom: 92px;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1180px) {
   .place {
     gap: 48px 32px;
     grid-template-columns: 440px 1fr;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 899px) {
   .place {
     margin-top: 70px;
     gap: 48px 28px;
@@ -29,13 +29,13 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 899px) {
   .place:first-child {
     margin-top: 88px;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 899px) {
   .place:last-child {
     margin-bottom: 90px;
   }
